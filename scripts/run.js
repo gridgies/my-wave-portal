@@ -23,7 +23,7 @@ const main = async () => {
 const runMain = async () => {
   try {
     await main();
-    process.exit(0); //exit Node process without error
+    process.exit(0); //exit Node process without error, check
   } catch (error) {
     console.log(error);
     process.exit(1); //exit Node process while indicating "Uncaught fatal exception" error
